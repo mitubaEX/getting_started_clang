@@ -1,5 +1,5 @@
-PROGRAM = ascii
-OBJS = ascii.o
+PROGRAM = inc_2
+OBJS = inc_2.o
 SRCS = $(OBJS:%.o=%.c)
 CC = gcc
 CFLAGS = -g -Wall
